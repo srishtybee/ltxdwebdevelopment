@@ -1,0 +1,169 @@
+/* Add CSS styles for your web site here and use them in index.html. */
+
+.raleway-uniquifier {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    background-color: white;
+    color: #333;
+    margin: 20px;
+    font-family: "Raleway", sans-serif;
+}
+
+h2 {
+    text-align: left;
+    font-size: 1em;
+}
+
+h3 {
+    text-align: left;
+    font-size: .8em;
+    font-weight: 500;
+}
+
+
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.searchform {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+
+}
+
+.searchform button {
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid;
+    background-color: #333;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+.searchform input {
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid;
+    width: 150px;
+    font-family: "Raleway", sans-serif;
+}
+
+.optionsrow {
+    display: flex;
+    justify-content: space-between ;
+    gap: auto;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+
+}
+.sort {
+    display: flex;
+    border: none;
+    background-color: white;
+    text-decoration-line: underline;
+    gap: 20px;
+    margin: 20px 0;
+    font-family: "Raleway", sans-serif;
+
+}
+
+.sort:hover {
+    color:rgb(89, 172, 255);
+}
+
+.filterbuttons {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    margin: 20px 0;
+    font-weight: 300;
+    flex-wrap: wrap;
+}
+
+.filter, .tag {
+    border: 1px ;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.tag {
+    background-color: gray;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+.recipegrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    row-gap: 20px;
+    column-gap: 20px ;
+    
+
+
+}
+
+.recipecard {
+    padding: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .1);
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.recipeButtonClick:hover {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(89, 172, 255);
+    border-width: 2px;
+    background-color: aliceblue;
+}
+
+.recipephoto {
+    display: block;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 250px;
+    width: 100%;
+    
+}
+
+.recipeinfo {
+    color: black;
+    font-size: .9em;
+    margin-right: auto;
+}
+
+.recipeButtonClick {
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 95%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+
+}
